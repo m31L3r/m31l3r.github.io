@@ -16,6 +16,7 @@
                   └──────────────┘ 
 
 ### Tool Stack
+
 | Stage |  Tool | Purpose |
 |:----- |:----- |:------- |
 | 3D Geometry | FreeCAD + EM-Workbench | Model buspars, PCB, enclosures |
