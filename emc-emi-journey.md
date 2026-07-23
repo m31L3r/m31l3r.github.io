@@ -17,7 +17,7 @@
 
 ### Tool Stack
 | Stage |  Tool | Purpose |
-|:-:|:-:|:-:|
+|:----- |:----- |:------- |
 | 3D Geometry | FreeCAD + EM-Workbench | Model buspars, PCB, enclosures |
 | Capacitance Extraction | FastCap2 / FasterCap | 3D capacitance matrix |
 | Inductance Extraction | FastHenry | 3D inductance/resistance matrix |
