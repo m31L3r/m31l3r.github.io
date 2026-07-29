@@ -26,3 +26,16 @@
 | Full-Wave EM | OpenEMS / Meep | FDTD near-field / far-field radiation |
 | Post-Processing | Python + SciPy | FFT, spectrum, CISPR comaprison |
 | Visualization | Matplotlib + ParaView | Spectrum plots, 3D field viz |
+
+## Installation of FasterCap on MacOs
+Go to the [FasterCap GitHub](https://github.com/ediloren/FasterCap) and download files. Then run the following commands in terminal:
+
+```bash
+cmake -S ./FasterCap -B FasterCap-build \
+  -G "Unix Makefiles" \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DFASTFIELDSOLVERS_HEADLESS=ON \
+  -DCMAKE_POLICY_VERSION_MINIMUM=3.5
+
+cmake --build FasterCap-build --parallel
+```
