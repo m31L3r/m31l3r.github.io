@@ -39,3 +39,5 @@ cmake -S ./FasterCap -B FasterCap-build \
 
 cmake --build FasterCap-build --parallel
 ```
+
+## First Steps - Busbar and Ground
