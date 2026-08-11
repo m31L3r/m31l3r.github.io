@@ -9,7 +9,7 @@ $V=Z(\omega)I, Z(\omega)=R(\omega)+j\omega L(\omega) (+full-wave terms)$
 - $Z_{ij}$ = voltageinduced at port i per unit current at port j, with all other ports open-circuited $(I_k=0)$
 - It's defined in terms of total V and I at the conductor terminals - a lumped/quasi-static port definition, extended into the full-wave regime by the surface (MPIE/pFFT) formulation.
 
-## Conversion to [S-parameters][]
+## Conversion to [S-parameters](s-parameter.md)
 
 
 [S-paramters]: s-parameter.md
