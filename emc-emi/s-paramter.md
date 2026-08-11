@@ -18,5 +18,6 @@ Field solvers and circuit simulators produce S-parameters directly:
 - Circuit simulators (ngspice) do an "S-parameter analysis" from a netlist. Computed, never measured.
 3. Conversion from other parameter sets
 If one has Z, Y, ABCD, or H matrix, one can derive S-parameters purely by math, given a reference impedance $Z_0$:
+
 $$S=\frac{Z-Z_0}{Z+Z0}$$
 
