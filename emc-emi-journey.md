@@ -1,4 +1,12 @@
+---
+title: EMC EMI Journey
+tags: [emc, emi, simulation, workflow, tools]
+aliases: [EMI simulation pipeline]
+---
+
 # This is my journey to EMI and EMC simulations
+
+Keywords: tag:emc tag:emi tag:simulation tag:workflow
 
 ## EMI Simulation Pipeline - Open-Source 3D Field solver
 
